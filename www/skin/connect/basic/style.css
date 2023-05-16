@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* 내용관리 */
+
+#ctt {
+    margin: 60px auto;
+    padding: 20px;
+    background: #fff;
+    max-width: 1220px;
+    border: 1px solid #e7e7e7;
+    color: #797979;
+}
+
+.ctt_admin {
+    text-align: right;
+}
+
+#ctt header h1 {
+    position: absolute;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+
+#ctt_con {
+    padding: 10px 0;
+    line-height: 1.6em;
+}
+
+#ctt_con img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ctt_img {
+    text-align: center;
+}
+
+#ctt #ctt_con p {
+    font-size: 14px !important;
+    font-family: NanumSquare, Montserrat, "Nanum Gothic" !important;
+    word-break: break-word;
+}
+
+#ctt #ctt_con p span {
+    font-size: 14px !important;
+    font-family: NanumSquare, Montserrat, "Nanum Gothic" !important;
+    color: #797979 !important;
+}

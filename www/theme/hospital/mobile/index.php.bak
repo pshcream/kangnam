@@ -1,0 +1,1179 @@
+<?php
+if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
+
+include_once(G5_THEME_MOBILE_PATH.'/head.php');
+?>
+
+
+<!--메인슬라이더시작-->
+<div class="main_visual">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+         
+			<div class="swiper-slide" style="overflow:hidden;">
+                <a href="/bbs/board.php?bo_table=many" target="_self" style="display:block;">
+                   <img src="http://dodreambodyclinic.com/theme/basic/img/mobile/slide_00.png" alt="　"  loading="eager"> 
+                </a>
+                <div class="titleWrap">
+                    <a href="/bbs/board.php?bo_table=many" target="_self" style="display:block;">
+                        <h2 style="color:">　</h2>
+				        <span style="color:"></span>
+                        <span style="color:"></span>
+                    </a>
+                </div>
+            </div> 
+            <div class="swiper-slide" style="overflow:hidden;">
+                <a href="/bbs/board.php?bo_table=belly" target="_self" style="display:block;">
+                   <img src="http://dodreambodyclinic.com/theme/basic/img/mobile/slide_02.png" alt="　"  loading="lazy"> 
+                </a>
+                <div class="titleWrap">
+                    <a href="/bbs/board.php?bo_table=belly" target="_self" style="display:block;">
+                        <h2 style="color:">　</h2>
+				        <span style="color:"></span>
+                        <span style="color:"></span>
+                    </a>
+                </div>
+            </div> 
+            
+            <div class="swiper-slide" style="overflow:hidden;">
+                <a href="/bbs/board.php?bo_table=thigh" target="_self" style="display:block;">
+                   <img src="http://dodreambodyclinic.com/theme/basic/img/mobile/slide_03.png" alt="　"  loading="lazy">  
+                </a>
+                <div class="titleWrap">
+                    <a href="/bbs/board.php?bo_table=thigh" target="_self" style="display:block;">
+                        <h2 style="color:">　</h2>
+				        <span style="color:"></span>
+                        <span style="color:"></span>
+                    </a>
+                </div>
+            </div> 
+            
+            <div class="swiper-slide" style="overflow:hidden;">
+                 <a href="/bbs/board.php?bo_table=_arm" target="_self" style="display:block;">
+                   <img src="http://dodreambodyclinic.com/theme/basic/img/mobile/slide_04.png" alt="　"  loading="lazy"> 
+                </a>
+                <div class="titleWrap">
+                    <a href="/bbs/board.php?bo_table=_arm" target="_self" style="display:block;">
+                        <h2 style="color:">　</h2>
+				        <span style="color:"></span>
+                        <span style="color:"></span>
+                    </a>
+                </div>
+            </div> 
+			
+			<div class="swiper-slide" style="overflow:hidden;">
+                 <a href="/bbs/board.php?bo_table=_arm" target="_self" style="display:block;">
+                   <img src="http://dodreambodyclinic.com/theme/basic/img/mobile/slide_05.png" alt="　"  loading="lazy"> 
+                </a>
+                <div class="titleWrap">
+                    <a href="/life-health-introduction/medical-staff-introduction/" target="_self" style="display:block;">
+                        <h2 style="color:">　</h2>
+				        <span style="color:"></span>
+                        <span style="color:"></span>
+                    </a>
+                </div>
+            </div> 
+			
+			<div class="swiper-slide" style="overflow:hidden;">
+                 <a style="display:block;">
+                   <img src="http://dodreambodyclinic.com/theme/basic/img/mobile/slide_06.png" alt="　"  loading="lazy"> 
+                </a>
+                <div class="titleWrap">
+                    <a style="display:block;">
+                        <h2 style="color:">　</h2>
+				        <span style="color:"></span>
+                        <span style="color:"></span>
+                    </a>
+                </div>
+            </div> 
+            
+           
+            
+            
+          
+            
+        </div>
+    </div>
+     
+			
+            <div class="swiper-button-next"></div>
+			
+            <div class="swiper-button-prev"></div>
+            
+</div>
+
+<script>
+
+    var mainSlide = new Swiper('.main_visual .swiper-container', {
+		direction: "horizontal",
+		slidesPerView: "auto",
+		speed: 600,
+		loop: true,
+		autoplay: {
+			delay: 3000,
+		},
+		centeredSlides: true,
+		spaceBetween: 0,
+		navigation: {
+			nextEl: '.main_visual .swiper-button-next',
+			prevEl: '.main_visual .swiper-button-prev',
+		},
+	});
+    
+</script>
+<!--메인슬라이더끝-->
+
+
+<!--전체모델유튜브재생시작-->
+
+        <div class="ddtv_view" id="ddtv_01">
+            <div class="ddtv_close">
+                <img src="https://dformula.speedgabia.com/_dodreamhairplant/mobile/new_close_btn2.png" alt="">       
+            </div>
+			<iframe width="100%" height="100%" src="http://dodreambodyclinic.com/theme/basic/img/model_01.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+        <div class="ddtv_view" id="ddtv_02">
+            <div class="ddtv_close">
+                <img src="https://dformula.speedgabia.com/_dodreamhairplant/mobile/new_close_btn2.png" alt="">       
+            </div>
+            <iframe width="100%" height="100%" src="http://dodreambodyclinic.com/theme/basic/img/model_06.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+        <div class="ddtv_view" id="ddtv_03">
+            <div class="ddtv_close">
+                <img src="https://dformula.speedgabia.com/_dodreamhairplant/mobile/new_close_btn2.png" alt="">       
+            </div>
+			<iframe width="100%" height="100%" src="http://dodreambodyclinic.com/theme/basic/img/model_02.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+        <div class="ddtv_view" id="ddtv_04">
+            <div class="ddtv_close">
+                <img src="https://dformula.speedgabia.com/_dodreamhairplant/mobile/new_close_btn2.png" alt="">       
+            </div>
+			<iframe width="100%" height="100%" src="http://dodreambodyclinic.com/theme/basic/img/model_07.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+        <div class="ddtv_view" id="ddtv_05">
+            <div class="ddtv_close">
+                <img src="https://dformula.speedgabia.com/_dodreamhairplant/mobile/new_close_btn2.png" alt="">       
+            </div>
+			<iframe width="100%" height="100%" src="http://dodreambodyclinic.com/theme/basic/img/model_03.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+        <div class="ddtv_view" id="ddtv_06">
+            <div class="ddtv_close">
+                <img src="https://dformula.speedgabia.com/_dodreamhairplant/mobile/new_close_btn2.png" alt="">       
+            </div>
+			<iframe width="100%" height="100%" src="http://dodreambodyclinic.com/theme/basic/img/model_08.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+
+
+
+        <div class="ddtv_view" id="ddtv_07">
+           <div class="ddtv_close">
+                <img src="https://dformula.speedgabia.com/_dodreamhairplant/mobile/new_close_btn2.png" alt="">       
+            </div>
+			<iframe width="100%" height="100%" src="http://dodreambodyclinic.com/theme/basic/img/model_04.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+        <div class="ddtv_view" id="ddtv_08">
+            <div class="ddtv_close">
+                <img src="https://dformula.speedgabia.com/_dodreamhairplant/mobile/new_close_btn2.png" alt="">       
+            </div>
+			<iframe width="100%" height="100%" src="http://dodreambodyclinic.com/theme/basic/img/model_09.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+        <div class="ddtv_view" id="ddtv_09">
+            <div class="ddtv_close">
+                <img src="https://dformula.speedgabia.com/_dodreamhairplant/mobile/new_close_btn2.png" alt="">       
+            </div>
+			<iframe width="100%" height="100%" src="http://dodreambodyclinic.com/theme/basic/img/model_05.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+        <div class="ddtv_view" id="ddtv_10">
+            <div class="ddtv_close">
+                <img src="https://dformula.speedgabia.com/_dodreamhairplant/mobile/new_close_btn2.png" alt="">       
+            </div>
+			<iframe width="100%" height="100%" src="http://dodreambodyclinic.com/theme/basic/img/model_10.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+
+
+
+
+
+
+<!--전체모델유튜브재생끝-->
+
+
+<!--전체모델유튜브슬라이더시작-->
+<div class="ddModel wrapper" style="padding:0">
+    <div class="mainTitle">
+        <h2>DODREAM MODEL STORY</h2>
+        <!--
+        <a href="/m/community/datv/datv_index.php#hashlink9" class="more">더 보기 <i class="xi-angle-right"></i></a>
+        -->
+   </div>
+    <div class="swiper-container">
+        <div class="ddtv_list swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="model_list" data-chk="login" onclick="openPlay(event, 'ddtv_01')">
+                    <div class="thumb video">
+                        <img src="http://dodreambodyclinic.com/theme/basic/img/model_01.png" loading="eager" alt="http://dodreambodyclinic.com/theme/basic/img/model_01.mp4" class="elseThumb"/>   
+                    </div>
+                    <div class="subject">
+                        <h3>[두드림 모델 스토리]</h3>
+                        <span>얼굴 <b>지방흡입</b> 후기!</span>
+                    </div>
+                </div>
+                <div class="model_list" data-chk="login" onclick="openPlay(event, 'ddtv_02')">
+                    <div class="thumb video">  
+                        <img src="http://dodreambodyclinic.com/theme/basic/img/model_06.png"  loading="eager" alt="http://dodreambodyclinic.com/theme/basic/img/model_06.mp4" class="elseThumb"/>
+                    </div>
+                    <div class="subject">
+                        <h3>[두드림 모델 스토리]</h3>
+                        <span>복부 <b>지방흡입</b> 후기!</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="model_list" data-chk="login" onclick="openPlay(event, 'ddtv_03')">
+                    <div class="thumb video">    
+                        <img src="http://dodreambodyclinic.com/theme/basic/img/model_02.png" loading="eager" alt="http://dodreambodyclinic.com/theme/basic/img/model_02.mp4" class="elseThumb"/>
+                    </div>
+                    <div class="subject">
+                        <h3>[두드림 모델 스토리]</h3>
+                        <span>얼굴 <b>지방흡입</b> 후기!</span>
+                    </div>
+                </div>
+                <div class="model_list" data-chk="login" onclick="openPlay(event, 'ddtv_04')">
+                    <div class="thumb video">    
+                        <img src="http://dodreambodyclinic.com/theme/basic/img/model_07.png" loading="eager"  alt="http://dodreambodyclinic.com/theme/basic/img/model_07.mp4" class="elseThumb"/>
+                    </div>
+                    <div class="subject">
+                        <h3>[두드림 모델 스토리]</h3>
+                        <span>복부 <b>지방흡입</b> 후기!</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="model_list" data-chk="login" onclick="openPlay(event, 'ddtv_05')">
+                    <div class="thumb video">
+                        <img src="http://dodreambodyclinic.com/theme/basic/img/model_03.png" loading="eager"  alt="http://dodreambodyclinic.com/theme/basic/img/model_03.mp4" class="elseThumb"/>
+                    </div>
+                    <div class="subject">
+                        <h3>[두드림 모델 스토리]</h3>
+                        <span>얼굴 <b>지방흡입</b> 후기!</span>
+                    </div>
+                </div>
+                <div class="model_list" data-chk="login" onclick="openPlay(event, 'ddtv_06')">
+                    <div class="thumb video">    
+                        <img src="http://dodreambodyclinic.com/theme/basic/img/model_08.png" loading="eager"  alt="http://dodreambodyclinic.com/theme/basic/img/model_08.mp4" class="elseThumb"/>
+                    </div>
+                    <div class="subject">
+                        <h3>[두드림 모델 스토리]</h3>
+                        <span>얼굴 <b>지방흡입</b> 후기!</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="model_list" data-chk="login" onclick="openPlay(event, 'ddtv_07')">
+                    <div class="thumb video">
+                        <img src="http://dodreambodyclinic.com/theme/basic/img/model_04.png" loading="lazy" alt="http://dodreambodyclinic.com/theme/basic/img/model_04.mp4" class="elseThumb"/>
+                    </div>
+                    <div class="subject">
+                        <h3>[두드림 모델 스토리]</h3>
+                        <span>얼굴 <b>지방흡입</b> 후기!</span>
+                    </div>
+                </div>
+                <div class="model_list" data-chk="login" onclick="openPlay(event, 'ddtv_08')">
+                    <div class="thumb video">    
+                        <img src="http://dodreambodyclinic.com/theme/basic/img/model_09.png" loading="lazy" alt="http://dodreambodyclinic.com/theme/basic/img/model_09.mp4" class="elseThumb"/>
+                    </div>
+                    <div class="subject">
+                        <h3>[두드림 모델 스토리]</h3>
+                        <span>얼굴 <b>지방흡입</b> 후기!</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="model_list" data-chk="login" onclick="openPlay(event, 'ddtv_09')">
+                    <div class="thumb video">
+                        <img src="http://dodreambodyclinic.com/theme/basic/img/model_05.png" loading="lazy"  alt="http://dodreambodyclinic.com/theme/basic/img/model_05.mp4" class="elseThumb"/>
+                    </div>
+                    <div class="subject">
+                        <h3>[두드림 모델 스토리]</h3>
+                        <span>얼굴 <b>지방흡입</b> 후기!</span>
+                    </div>
+                </div>
+                <div class="model_list" data-chk="login" onclick="openPlay(event, 'ddtv_10')">
+                    <div class="thumb video">    
+                        <img src="http://dodreambodyclinic.com/theme/basic/img/model_10.png" loading="lazy"  alt="http://dodreambodyclinic.com/theme/basic/img/model_10.mp4" class="elseThumb"/>
+                    </div>
+                    <div class="subject">
+                        <h3>[두드림 모델 스토리]</h3>
+                        <span>전신 <b>지방흡입</b> 후기!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var daModel = new Swiper('.ddModel .swiper-container', {
+        loop: true,
+        slidesPerView: 'auto',
+        spaceBetween: 0,
+        speed: 200,
+        freeMode: true
+    });
+
+</script>
+
+
+
+<script>
+    
+        function openPlay(evt, playName) {
+  // Declare all variables
+  var i, ddtv_view, model_list;
+
+  // Get all elements with class="tabcontent" and hide them
+  ddtv_view = document.getElementsByClassName("ddtv_view");
+  for (i = 0; i < ddtv_view.length; i++) {
+    ddtv_view[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  model_list = document.getElementsByClassName("model_list");
+  for (i = 0; i < model_list.length; i++) {
+    model_list[i].className = model_list[i].className.replace(" on", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(playName).style.display = "inline-block";
+  evt.currentTarget.className += " on";
+}
+
+    
+    </script>
+
+
+<script>
+
+$(".ddtv_close").click(function(){
+                    $(".ddtv_view").hide();
+                   
+                }); 
+    
+</script>
+<!--전체모델유튜브슬라이더끝-->
+
+
+
+<!--두드림셀피시작-->
+<div class="newReview">
+    <div class="wrapper" style="padding:0">
+        <div class="mainTitle">
+            <h2>두드림 #셀피</h2>	
+            <!--
+            <a href="/m/community/selfie/" class="more">더 보기 <i class="xi-angle-right"></i></a>
+            -->
+        </div>
+        <img src="http://dodreambodyclinic.com//theme/basic/img/selfie_01.png" style="width:100%;">
+    </div>
+</div>
+<!--두드림셀피끝-->
+
+
+
+
+
+
+
+    
+   
+    <div class="wrappers midconWrap" style="background:white;">
+		
+		<div style="      text-align: left;
+    /* line-height: 50px; */
+    /* font-size: 18px; */
+    color: #000;     vertical-align: top;
+    margin-right: 2px;     font-weight: bold;
+       line-height: 40px;     font-size: 16px;
+    margin-left: 10px; font-weight: bold;    font-family: 'Malgun Gothic', dotum, sans-serif;">BEFORE & AFTER</div>
+    <!--
+        <img src="https://dformula.speedgabia.com/_dodreamhairplant/1.PNG" style="width:100%;">
+
+   -->
+       <!-- 
+        < ?php if ($is_member) {  ?>
+        < ?php include_once(G5_THEME_PATH.'/ba_member.php'); ?>
+        < ?php } else {  ?>
+        < ?php include_once(G5_THEME_PATH.'/ba.php'); ?>
+         < ?php }  ?>
+    -->
+    
+    
+    </div>
+    
+    
+	<!--------------비포애프터시작---------------------->
+	
+	<!----비포애프터내용시작---->
+	<style>
+		.bna_img .bx-wrapper .bx-viewport .bx-wrapper .bx-viewport ul li {}
+.bna_img .bx-wrapper .bx-controls-direction {      ;}
+.bna_img .bx-wrapper .bx-prev { left: -200px;}	
+		.bna_img .bx-wrapper .bx-viewport{height: ;}		
+	</style>
+	
+	
+	  
+	<?php if ($is_member) {  ?>
+	
+	<!--로그인후시작-->
+    
+	<div class="bna_wrap" style="margin-top:60px;">
+		
+		
+		
+					<div class="bna_img" style="margin:0 auto; visibility: visible!important;">
+						
+						
+						<!--전후사진더보기시작-->
+		
+			<a class="ba_more" href="/bbs/board.php?bo_table=before_after">전후사진 더보기 +</a>
+		
+		<!--전후사진더보기끝-->
+						
+						
+						<div class="bx-wrapper" style="max-width: 100%;">
+							<div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; ">
+								<ul style="width: 515%; position: relative; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+									<li data-no="0" data-index="408" style="float: left; list-style: none; position: relative; ">
+										<img class="on" src="http://dodreambodyclinic.com/theme/basic/img/ba_0101.png" alt="정면" img-no="0">
+										<img src="http://dodreambodyclinic.com/theme/basic/img/ba_0102.png" alt="45도" img-no="1">			
+										<img src="http://dodreambodyclinic.com/theme/basic/img/ba_0103.png" alt="측면" img-no="2">
+										<div class="bna_img_txt">두드림 복부 지방흡입 3개월차</div>
+									</li>
+									<li data-no="1" data-index="363" style="float: left; list-style: none; position: relative; ">
+										<img class="on" src="http://dodreambodyclinic.com/theme/basic/img/ba_0201.png" alt="정면" img-no="0">
+										<img src="http://dodreambodyclinic.com/theme/basic/img/ba_0202.png" alt="측면" img-no="1">
+										
+										<div class="bna_img_txt">두드림 전신지방흡입 1년차</div>
+									</li>
+									<li data-no="2" data-index="365" style="float: left; list-style: none; position: relative; ">
+										<img class="on" src="http://dodreambodyclinic.com/theme/basic/img/ba_0301.png" alt="정면" img-no="0">
+										<img src="http://dodreambodyclinic.com/theme/basic/img/ba_0302.png" alt="45도" img-no="1">
+										<!--
+										<img src="https://www.daprs.com//upload/beforeandafter/1496990094401.9_Rn9_3_EBB0A9ED989CECA095_ECB2B4ED9895_ECB8A1EBA9B4.jpg" alt="측면" img-no="2">
+										-->
+										<div class="bna_img_txt">두드림 이중턱 지방흡입 3개월차</div>
+									</li>
+								</ul>
+							</div>
+							<!--
+							<div class="bx-controls bx-has-controls-direction">
+								<div class="bx-controls-direction">
+									<a class="bx-prev" href="">Prev</a>
+									<a class="bx-next" href="">Next</a>
+								</div>
+							</div>
+                            -->
+						</div>
+						<div class="bna_img_btn">
+							<span class="on" style="display: inline-block;">정면</span>
+							<span style="display: inline-block;">45도</span>
+							<span style="display: inline-block;">측면</span>
+							
+						</div>
+					</div>
+					<div class="bna_thumb" style="position: relative; left: 0; margin: 20px auto 0;">
+						<a data-slide-index="0" href="" style="position: relative; margin-bottom: 6px!important;" class="active">
+							<img src="http://dodreambodyclinic.com/theme/basic/img/ba_0101.png" style="height:auto">
+						</a>
+						<a data-slide-index="1" href="" style="position: relative; margin-bottom: 6px!important;">
+							<img src="http://dodreambodyclinic.com/theme/basic/img/ba_0201.png" style="height:auto">
+						</a>
+						<a data-slide-index="2" href="" style="position: relative; margin-bottom: 6px!important;">
+							<img src="http://dodreambodyclinic.com/theme/basic/img/ba_0301.png" style="height:auto">
+						</a>
+					</div>
+					
+	
+	
+				</div>
+	
+<!--로그인후끝--> 
+	
+	
+	
+	<?php } else {  ?>
+	
+	
+	
+	<!--로그인전시작-->
+        
+	
+	<div class="bna_wrap" style="margin-top:60px;">
+		
+		
+		
+					<div class="bna_img" style="margin:0 auto; visibility: visible!important;">
+						
+	<!--전후사진더보기시작-->
+		
+			<a class="ba_more" href="/bbs/board.php?bo_table=before_after">전후사진 더보기 +</a>
+		
+		<!--전후사진더보기끝-->
+						
+						<div class="bx-wrapper" style="max-width: 100%;">
+							<div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; ">
+								<ul style="width: 515%; position: relative; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+									<li data-no="0" data-index="0" style="float: left; list-style: none; position: relative; ">
+										
+									<!------로그인박스시작------->
+			<a class="ba_login" href="/bbs/board.php?bo_table=before_after">
+        <div class="ba_login_box">
+            <b>한번의 로그인으로<br><span>다양한 전후사진</span>을<br>확인하실 수 있습니다.</b>
+            <div class="ba_login_circle"><b>로그인</b></div>
+        </div>
+        
+    </a>			
+						
+						
+	<!------로그인박스끝------->
+										
+										
+										<img class="on" src="http://dodreambodyclinic.com/theme/basic/img/ba_0101.png" alt="정면" img-no="0">
+										<img src="http://dodreambodyclinic.com/theme/basic/img/ba_0102.png" alt="45도" img-no="1">			
+										<img src="http://dodreambodyclinic.com/theme/basic/img/ba_0103.png" alt="측면" img-no="2">
+										<div class="bna_img_txt">두드림 복부 지방흡입 3개월차</div>
+									</li>
+									<li data-no="1" data-index="1" style="float: left; list-style: none; position: relative; ">
+<!------로그인박스시작------->
+			<a class="ba_login" href="/bbs/board.php?bo_table=before_after">
+        <div class="ba_login_box">
+            <b>한번의 로그인으로<br><span>다양한 전후사진</span>을<br>확인하실 수 있습니다.</b>
+            <div class="ba_login_circle"><b>로그인</b></div>
+        </div>
+        
+    </a>			
+						
+						
+	<!------로그인박스끝------->										
+										<img class="on" src="http://dodreambodyclinic.com/theme/basic/img/ba_0201.png" alt="정면" img-no="0">
+										<img src="http://dodreambodyclinic.com/theme/basic/img/ba_0202.png" alt="측면" img-no="1">
+										
+										<div class="bna_img_txt">두드림 전신지방흡입 1년차</div>
+									</li>
+									<li data-no="2" data-index="2" style="float: left; list-style: none; position: relative; ">
+	<!------로그인박스시작------->
+			<a class="ba_login" href="/bbs/board.php?bo_table=before_after">
+        <div class="ba_login_box">
+            <b>한번의 로그인으로<br><span>다양한 전후사진</span>을<br>확인하실 수 있습니다.</b>
+            <div class="ba_login_circle"><b>로그인</b></div>
+        </div>
+        
+    </a>			
+						
+						
+	<!------로그인박스끝------->									
+										<img class="on" src="http://dodreambodyclinic.com/theme/basic/img/ba_0301.png" alt="정면" img-no="0">
+										<img src="http://dodreambodyclinic.com/theme/basic/img/ba_0302.png" alt="45도" img-no="1">
+										<!--
+										<img src="https://www.daprs.com//upload/beforeandafter/1496990094401.9_Rn9_3_EBB0A9ED989CECA095_ECB2B4ED9895_ECB8A1EBA9B4.jpg" alt="측면" img-no="2">
+										-->
+										<div class="bna_img_txt">두드림 이중턱 지방흡입 3개월차</div>
+									</li>
+								</ul>
+							</div>
+							<!--
+							<div class="bx-controls bx-has-controls-direction">
+								<div class="bx-controls-direction">
+									<a class="bx-prev" href="">Prev</a>
+									<a class="bx-next" href="">Next</a>
+								</div>
+							</div>
+                            -->
+						</div>
+						<div class="bna_img_btn">
+							<span class="on" style="display: inline-block;">정면</span>
+							<span style="display: inline-block;">45도</span>
+							<span style="display: inline-block;">측면</span>
+							
+						</div>
+					</div>
+					<div class="bna_thumb" style=" position: relative; left: 0; margin: 20px auto 0;">
+						<a data-slide-index="0" href="" style="position: relative; margin-bottom: 6px!important;" class="active">
+							<img src="https://dformula.speedgabia.com/_dodreambodyclinic/ba_0101_tab.png" style="height:auto">
+						</a>
+						<a data-slide-index="1" href="" style="position: relative; margin-bottom: 6px!important;">
+							<img src="https://dformula.speedgabia.com/_dodreambodyclinic/ba_0201_tab.png" style="height:auto">
+						</a>
+						<a data-slide-index="2" href="" style="position: relative; margin-bottom: 6px!important;">
+							<img src="https://dformula.speedgabia.com/_dodreambodyclinic/ba_0301_tab.png" style="height:auto">
+						</a>
+					</div>
+					
+	
+	
+				</div>
+	
+	
+	<!--로그인전끝-->
+	
+         <?php }  ?>
+    
+	
+	
+	
+	
+				
+				
+	
+	
+	<script>
+				var bx_idx;
+		var bna_img = $(".bna_img ul").bxSlider({
+			infiniteLoop : false,
+			pagerCustom : '.bna_thumb',
+			onSliderLoad :  function(obj){
+				bx_idx = obj;
+			},
+			onSlideAfter : function(obj){
+				$(".bna_img li > img").hide();
+				$(".bna_img li > .on").show();
+				bx_idx = $(obj).index();
+				
+			}
+		});
+
+		
+		// 각도버튼 클릭시 해당이미지 show
+		$(".bna_img_btn span").click(function(){
+			if ( $(this).attr("class") != "on" ){
+				$(".bna_img_btn span").removeClass("on");
+				$(".bna_img li > img").hide();
+
+				$(this).addClass("on");
+				$(".bna_img li").eq(bx_idx).find("img[alt='"+ $(this).text() +"']").stop().fadeIn("fast");
+			}
+		});
+		var curIdx = 0;
+		// 버튼 클릭시 초기셋팅
+		function work(){
+			$(".bna_img_btn span").hide();
+			$(".bna_wrap .bna_img ul li").eq(curIdx).find("img").each(function(idx, item){
+				$(".bna_img_btn span")
+					.filter(
+						function(){
+							if( $(this).text() == $(item).attr("alt"))
+								return this;
+				}).show();
+			});
+
+			$(".bna_img_btn span").removeClass("on");
+			$(".bna_img li img span").hide();
+
+			$(".bna_img_btn span").eq(0).addClass("on");
+			$(".bna_img li img").each(function(){
+				if ( $(this).index() == 0 ){
+					//alert($(this).parent("li").attr("data-no"));
+					$(this).show();
+				}
+			});
+		}
+		work();
+		$(".bna_img .bx-controls-direction a, .bna_thumb a").click(function(){
+			if($(this).hasClass("bx-prev")){
+				if( 1 <= curIdx ){
+					curIdx--;
+					work();
+				}
+			}else if($(this).hasClass("bx-next")){
+				if( curIdx < 3-1 ){
+					curIdx++;
+					work();
+				}
+			}else{
+				curIdx = $(this).attr("data-slide-index");
+				work();
+			}
+		});
+
+		// 영상보기 클릭시 스크롤 이동
+		$(".bna_more img").click(function(){
+			$("html, body").stop().animate({scrollTop: $(this).offset().top - 30 });
+		});
+			
+	</script>
+	
+	<!----비포애프터내용끝---->
+	    
+	<!-----------------------------비포애프터끝---------------------->
+	
+	
+
+
+
+
+
+
+
+
+<!--두드림의료진소개시작--->
+<div class="doct">
+    <div class="wrapper" style="padding:0">
+        <div class="mainTitle">
+            <h2>두드림 의료진 소개</h2>	
+            <a href="/life-health-introduction/medical-staff-introduction/" class="more">더 보기 <i class="xi-angle-right"></i></a>
+        </div>
+    </div>
+</div>
+<div class="slide_bottom">
+    
+    <div class="inner">
+        <ul class="bxslider">
+            
+            
+            <li>
+                <a href="/life-health-introduction/medical-staff-introduction/#doc01">
+                    <span class="thumb">
+                        <img src="https://dformula.speedgabia.com/_dodreamhairplant/doc_02.png" alt="" />
+                    </span>
+                    
+                    <span class="desc" style="color: #000; font-size: 14px; font-weight: bold;">조인국 원장</span>
+                    <span class="tit" style="color: #747271; font-size: 12px;">대용량<br>지방흡입 전문</span>
+                </a>
+            </li>
+            
+            <li>
+                <a href="/life-health-introduction/medical-staff-introduction/">
+                    <span class="thumb">
+                        <img src="https://dformula.speedgabia.com/_dodreamhairplant/doc_03.png" alt="" loading="lazy" />
+                    </span>
+                    <span class="desc" style="color: #000; font-size: 14px; font-weight: bold;">임찬수 원장</span>
+                    <span class="tit" style="color: #747271; font-size: 12px;">비만클리닉<br>대표원장</span>
+                </a>
+            </li>
+            
+            
+			<!--
+            <li>
+                <a href="/life-health-introduction/medical-staff-introduction/#doc04">
+                    <span class="thumb">
+                        <img src="https://dformula.speedgabia.com/_dodreamhairplant/doc_05.png" loading="lazy" alt="" />
+                    </span>
+                    <span class="desc" style="color: #000; font-size: 14px; font-weight: bold;">이형민 원장</span>
+                    <span class="tit" style="color: #747271; font-size: 12px;">대용량<br>모발이식 전문</span>   
+                </a>
+            </li>
+			-->
+			<li>
+                <a href="/life-health-introduction/medical-staff-introduction/#doc02">
+                    <span class="thumb">
+                        <img src="https://dformula.speedgabia.com/_dodreamhairplant/doc_06.png" loading="lazy" alt="" />
+                    </span>
+                    <span class="desc" style="color: #000; font-size: 14px; font-weight: bold;">이희영 원장</span>
+                    <span class="tit" style="color: #747271; font-size: 12px;">대용량<br>지방흡입 전문</span>  
+                </a>
+            </li>
+            <li>
+                <a href="/life-health-introduction/medical-staff-introduction/#doc05">
+                    <span class="thumb">
+                        <img src="https://dformula.speedgabia.com/_dodreamhairplant/doc_01.png" loading="lazy" alt="" />
+                    </span>
+                    <span class="desc" style="color: #000; font-size: 14px; font-weight: bold;">김지승 원장</span>
+                    <span class="tit" style="color: #747271; font-size: 12px;">대용량<br>지방흡입 전문</span>  
+                </a>
+            </li>
+			<!--
+			<li>
+                <a href="/life-health-introduction/medical-staff-introduction/#doc06">
+                    <span class="thumb">
+                        <img src="http://dodreambodyclinic.com/theme/basic/img/doc_07.png" alt="" / loading="lazy" style="height:30vw;">
+                    </span>
+                    <span class="desc" style="color: #000; font-size: 14px; font-weight: bold;">김민호 원장</span>
+                    <span class="tit" style="color: #747271; font-size: 12px;">대용량<br>지방흡입 전문</span>
+                </a>
+            </li>
+            -->
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript" src="https://dodreamhairplant.co.kr/theme/basic/js/jquery.bxslider.min.js"></script> 
+<!--
+<script type="text/javascript" src="https://dodreamhairplant.co.kr/theme/basic/js/jquery-1.8.0.min.js"></script>
+-->
+
+<script>
+    
+    $('.bxslider').bxSlider({
+        auto : true,
+        controls : false,
+        pause: 3000,
+        minSlides:3,
+        maxSlides:3,
+        slideWidth:180,
+        slideMargin:10,
+        moveSlides:1,
+        
+});
+   
+    
+    
+</script>
+
+<!--두드림의료진소개끝-->
+
+
+
+
+<!-----------------의사유튜브시작------------------->
+
+<div class="doctv">
+	<div class="doctv_wrap wrapper"  style="padding:0">
+        <div class="mainTitle">
+            <h2>DDTV</h2>
+            <!--
+            <a href="/m/community/event/list.php" class="more">더 보기 <i class="xi-angle-right"></i></a> 
+            -->
+        </div>
+		<div class="doctv_list">
+			<ul>
+                <li class="doc doc1 on">
+                    <div class="thumb">
+                        <img src="http://dodreambodyclinic.com/theme/basic/img/ddtv_01.png" alt="https://www.youtube.com/embed/uJu0PIh04pk" style="margin-top:0;"/>
+                        <div class="doctv_pager_over"></div>
+                    </div>
+                    <div class="subject">
+                        <h3>[두드림TV]</h3>
+                        <span>Wonderful 지방흡입</span>
+                    </div>
+                </li>
+                <li class="doc doc2">
+                    <div class="thumb">
+                        <img src="http://dodreambodyclinic.com/theme/basic/img/ddtv_02.png" alt="https://www.youtube.com/embed/QQrezasdMhY" style="margin-top:0;"/>
+                        <div class="doctv_pager_over"></div>
+                    </div>
+                    <div class="subject">
+                        <h3>[두드림TV]</h3>
+                        <span>소노석션_이벤트</span>
+                    </div>
+                </li>
+                <li class="doc doc3">
+                    <div class="thumb">
+                        <img src="http://dodreambodyclinic.com/theme/basic/img/ddtv_03.png" alt="https://www.youtube.com/embed/yyoQ3fOmA70" style="margin-top:0;"/>
+                        <div class="doctv_pager_over"></div>
+                    </div>
+                    <div class="subject">
+                       <h3>[두드림TV]</h3>
+                        <span>소노페틴 얼굴지방흡입 이벤트</span>
+                    </div>
+                </li>
+                <li class="doc doc4">
+                    <div class="thumb">
+                        <img src="http://dodreambodyclinic.com/theme/basic/img/ddtv_04.jpg" alt="https://www.youtube.com/embed/kqKgHaBDae0?list=TLPQMzEwMzIwMjFnRvmclir2QA" style="margin-top:0;"/>
+                        <div class="doctv_pager_over"></div>
+                    </div>
+                    <div class="subject">
+                       <h3>[두드림TV]</h3>
+                        <span>종라얇어 이벤트</span>
+                    </div>
+                </li>
+            </ul>
+		</div>
+        
+    
+
+
+<!--첫번째유튜브팝업시작-->
+        
+        <div class="doctv_view1 doctv_view"  style="display:none;">
+                <div class="doctv_wrap" style="position:relative; top:50%; left:50%; transform: translate(-50%,-50%); padding:0 10px;">
+                    <div class="doctv_close" style="margin-bottom:7vw; text-align:right;">
+                        <img class="gnb_xbtn" src="https://dformula.speedgabia.com/_dodreamhairplant/mobile/new_close_btn.png" alt="">       
+                    </div>
+                    <div class="doctv_play" style="padding:56.25% 0 0 0;position:relative;">   
+                        <iframe src="https://www.youtube.com/embed/uJu0PIh04pk" style="width:100%;height:100%; position:absolute; top:0; left:0;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div> 
+                </div>    
+            </div>
+        
+        <script>
+    
+      
+        
+            
+        $(document).on("click",".doctv .doctv_wrap .doctv_list .doc1",function(){
+                    /*var doc_src = $(this).attr("data-detail");*/
+                    $(".doctv_list ul li").removeClass("on");
+		            $(this).addClass("on");
+                    $(".doctv_view1").show();
+                    /*$(".doc_view .imgWrap img").attr("src", doc_src);*/
+                });
+                
+                $(".doctv_close").click(function(){
+                    $(".doctv_view1").hide();
+                    $(".doctv_view1 .doctv_play iframe").attr("src", "https://www.youtube.com/embed/uJu0PIh04pk");
+                });    
+        </script> 
+        
+<!--첫번째유튜브팝업끝-->
+
+<!--두번째유튜브팝업시작-->
+        
+        <div class="doctv_view2 doctv_view"  style="display:none;">
+                <div class="doctv_wrap" style="position:relative; top:50%; left:50%; transform: translate(-50%,-50%); padding:0 10px;">
+                    <div class="doctv_close" style="margin-bottom:7vw; text-align:right;">
+                        <img class="gnb_xbtn" src="https://dformula.speedgabia.com/_dodreamhairplant/mobile/new_close_btn.png" alt="">       
+                    </div>
+                    <div class="doctv_play" style="padding:56.25% 0 0 0;position:relative;">   
+                        <iframe src="https://www.youtube.com/embed/QQrezasdMhY" style="width:100%;height:100%; position:absolute; top:0; left:0;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div> 
+                </div>    
+            </div>
+        
+        <script>
+    
+      
+        
+            
+        $(document).on("click",".doctv .doctv_wrap .doctv_list .doc2",function(){
+                    /*var doc_src = $(this).attr("data-detail");*/
+                    $(".doctv_list ul li").removeClass("on");
+		            $(this).addClass("on");
+                    $(".doctv_view2").show();
+                    /*$(".doc_view .imgWrap img").attr("src", doc_src);*/
+                });
+                
+                $(".doctv_close").click(function(){
+                    $(".doctv_view2").hide();
+                    $(".doctv_view2 .doctv_play iframe").attr("src", "https://www.youtube.com/embed/QQrezasdMhY");
+                });    
+        </script> 
+        
+<!--두번째유튜브팝업끝-->
+
+<!--세번째유튜브팝업시작-->
+        
+        <div class="doctv_view3 doctv_view"  style="display:none;">
+                <div class="doctv_wrap" style="position:relative; top:50%; left:50%; transform: translate(-50%,-50%); padding:0 10px;">
+                    <div class="doctv_close" style="margin-bottom:7vw; text-align:right;">
+                        <img class="gnb_xbtn" src="https://dformula.speedgabia.com/_dodreamhairplant/mobile/new_close_btn.png" alt="">       
+                    </div>
+                    <div class="doctv_play" style="padding:56.25% 0 0 0;position:relative;">   
+                        <iframe src="https://www.youtube.com/embed/yyoQ3fOmA70" style="width:100%;height:100%; position:absolute; top:0; left:0;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div> 
+                </div>    
+            </div>
+        
+        <script>
+    
+      
+        
+            
+        $(document).on("click",".doctv .doctv_wrap .doctv_list .doc3",function(){
+                    /*var doc_src = $(this).attr("data-detail");*/
+                    $(".doctv_list ul li").removeClass("on");
+		            $(this).addClass("on");
+                    $(".doctv_view3").show();
+                    /*$(".doc_view .imgWrap img").attr("src", doc_src);*/
+                });
+                
+                $(".doctv_close").click(function(){
+                    $(".doctv_view3").hide();
+                    $(".doctv_view3 .doctv_play iframe").attr("src", "https://www.youtube.com/embed/yyoQ3fOmA70");
+                });    
+        </script> 
+        
+<!--세번째유튜브팝업끝-->
+
+<!--네번째유튜브팝업시작-->
+        
+        <div class="doctv_view4 doctv_view"  style="display:none;">
+                <div class="doctv_wrap" style="position:relative; top:50%; left:50%; transform: translate(-50%,-50%); padding:0 10px;">
+                    <div class="doctv_close" style="margin-bottom:7vw; text-align:right;">
+                        <img class="gnb_xbtn" src="https://dformula.speedgabia.com/_dodreamhairplant/mobile/new_close_btn.png" alt="">       
+                    </div>
+                    <div class="doctv_play" style="padding:56.25% 0 0 0;position:relative;">   
+                        <iframe src="https://www.youtube.com/embed/kqKgHaBDae0?list=TLPQMzEwMzIwMjFnRvmclir2QA" style="width:100%;height:100%; position:absolute; top:0; left:0;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div> 
+                </div>    
+            </div>
+        
+        <script>
+    
+      
+        
+            
+        $(document).on("click",".doctv .doctv_wrap .doctv_list .doc4",function(){
+                    /*var doc_src = $(this).attr("data-detail");*/
+                    $(".doctv_list ul li").removeClass("on");
+		            $(this).addClass("on");
+                    $(".doctv_view4").show();
+                    /*$(".doc_view .imgWrap img").attr("src", doc_src);*/
+                });
+                
+                $(".doctv_close").click(function(){
+                    $(".doctv_view4").hide();
+                    $(".doctv_view4 .doctv_play iframe").attr("src", "https://www.youtube.com/embed/kqKgHaBDae0?list=TLPQMzEwMzIwMjFnRvmclir2QA");
+                });    
+        </script> 
+        
+<!--네번째유튜브팝업끝-->
+
+        
+        </div>
+    
+</div>
+<!------------------의사유튜브끝----------------->
+
+
+
+
+
+
+
+<!--두드림이벤트시작-->
+
+<div class="ddEvent wrapper" style="padding:0">
+    <div class="mainTitle">
+        <h2>두드림 이벤트 <span>New</span></h2>
+        <a href="/event" class="more">더 보기 <i class="xi-angle-right"></i></a> 
+    </div>
+    <div class="event_slide on" id="event_slide1">
+        <div class="swiper-container" style="    height: calc(39.3vw + 54px);">
+            
+            <div class="swiper-wrapper" >
+                
+                <div class="swiper-slide">
+								<div class="thumb">
+									<a href="/event&wr_id=6" target="_blank">
+                                        <img src="http://dodreambodyclinic.com/theme/basic/img/mobile/event_01.jpg" alt="Wonderful 얼굴지방흡입&소노석션">
+									</a>
+								</div>
+								<div class="subject">
+									<a href="/event&wr_id=6" target="_blank">
+                                        <h3>Wonderful 얼굴지방흡입&소노석션</h3>
+                                        <span>#selfie #지방흡입 #볼살이중턱소멸</span>
+									</a>
+								</div>
+                        </div>
+                
+                <div class="swiper-slide">
+								<div class="thumb">
+									<a href="/event&wr_id=5" target="_blank">
+                                        <img src="http://dodreambodyclinic.com/theme/basic/img/mobile/event_02.jpg" alt="두드림 얼굴지방흡입 '소노석션'" >
+									</a>
+								</div>
+								<div class="subject">
+									<a href="/event&wr_id=5" target="_blank">
+                                        <h3>두드림 얼굴지방흡입 '소노석션'</h3>
+                                        <span>런칭기념 스페셜 이벤트</span>
+									</a>
+								</div>
+                        </div>
+             
+                       <div class="swiper-slide">
+								<div class="thumb">
+									<a href="/event&wr_id=4" target="_blank">
+                                        <img src="http://dodreambodyclinic.com/theme/basic/img/mobile/event_03.jpg" alt="하이힐핏 발목 지방흡입">
+									</a>
+								</div>
+								<div class="subject">
+									<a href="/event&wr_id=4" target="_blank">
+                                        <h3>하이힐핏 발목 지방흡입</h3>
+                                        <span>두드림 발목관리 프로젝트</span>
+									</a>
+								</div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+								<div class="thumb">
+									<a href="/event&wr_id=3" target="_blank">
+                                        <img src="http://dodreambodyclinic.com/theme/basic/img/mobile/event_04.jpg" alt="종아리 지방흡입 '종랴얇어'">
+									</a>
+								</div>
+								<div class="subject">
+									<a href="/event&wr_id=3" target="_blank">
+                                        <h3>종아리 지방흡입 '종랴얇어'</h3>
+                                        <span>종아리 라인 얇고 이쁘게</span>
+									</a>
+								</div>
+							</div>
+                        
+                        <div class="swiper-slide">
+								<div class="thumb">
+									<a href="/event&wr_id=2" target="_blank">
+                                        <img src="http://dodreambodyclinic.com/theme/basic/img/mobile/event_05.jpg" alt="PRP 얼굴 지방이식 'PRP페린'">
+									</a>
+								</div>
+								<div class="subject">
+									<a href="/event&wr_id=2" target="_blank">
+                                        <h3>PRP 얼굴 지방이식 'PRP페린</h3>
+                                        <span>두드림 런칭이벤트 Fat-Injection</span>
+									</a>
+								</div>
+							</div>
+                        
+                        
+                
+            
+			</div>
+            
+           
+            
+            <div class="com_btn1 swiper-button-next1"></div>
+            <div class="com_btn2 swiper-button-prev1"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var daEvent1 = new Swiper('#event_slide1 .swiper-container', {
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next1',
+            prevEl: '.swiper-button-prev1',
+        },
+    });
+    
+</script>
+
+<!--두드림이벤트끝-->
+
+<!--두드림지식인시작-->
+<div class="kin_sec">
+    <a href="/jisikin">
+        <img src="http://dodreambodyclinic.com/theme/basic/img/mobile/kin.png" alt="지식 iN">
+    </a>
+</div>
+<!--두드림지식인끝-->
+
+
+
+<!-- 메인화면 최신글 시작 -->
+<!--
+< ?php
+//  최신글
+$sql = " select bo_table
+            from `{$g5['board_table']}` a left join `{$g5['group_table']}` b on (a.gr_id=b.gr_id)
+            where a.bo_device <> 'pc' ";
+if(!$is_admin) {
+    $sql .= " and a.bo_use_cert = '' ";
+}
+$sql .= " order by b.gr_order, a.bo_order ";
+$result = sql_query($sql);
+for ($i=0; $row=sql_fetch_array($result); $i++) {
+    // 이 함수가 바로 최신글을 추출하는 역할을 합니다.
+    // 스킨은 입력하지 않을 경우 관리자 > 환경설정의 최신글 스킨경로를 기본 스킨으로 합니다.
+
+    // 사용방법
+    // latest(스킨, 게시판아이디, 출력라인, 글자수);
+    echo latest('theme/basic', $row['bo_table'], 12, 25);
+}
+?>
+-->
+<!-- 메인화면 최신글 끝 -->
+
+<?php
+include_once(G5_THEME_MOBILE_PATH.'/tail.php');

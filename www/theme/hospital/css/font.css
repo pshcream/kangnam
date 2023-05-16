@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Cafe24Danjunghae";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Danjunghae.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "HangultuelGothic";
+    src: url("https://dodreamhairplant.co.kr/theme/basic/font/hangultuelGothic.woff") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0.75em;
+    background: #fff;
+    min-width: 1400px;
+}
+
+@font-face {
+    font-family: "GmarketSansLight";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff") format("woff");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GmarketSansMedium";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GmarketSansBold";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff") format("woff");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "S-CoreDream-5Medium";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "S-CoreDream-4Regular";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "NotoSansKRLight";
+    font-style: normal;
+    font-weight: 300;
+    src: url("/fonts/notosansKR/NotoSansKR-Light.woff2") format("woff2"), url("/fonts/notosansKR/NotoSansKR-Light.woff") format("woff"), url("/fonts/notosansKR/NotoSansKR-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "NotoSansKRRegular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/notosansKR/NotoSansKR-Regular.woff2") format("woff2"), url("/fonts/notosansKR/NotoSansKR-Regular.woff") format("woff"), url("/fonts/notosansKR/NotoSansKR-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "NotoSansKRMedium";
+    font-style: normal;
+    font-weight: 500;
+    src: url("/fonts/notosansKR/NotoSansKR-Medium.woff2") format("woff2"), url("/fonts/notosansKR/NotoSansKR-Medium.woff") format("woff"), url("/fonts/notosansKR/NotoSansKR-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "NotoSansKRBold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/notosansKR/NotoSansKR-Bold.woff2") format("woff2"), url("/fonts/notosansKR/NotoSansKR-Bold.woff") format("woff"), url("/fonts/notosansKR/NotoSansKR-Bold.otf") format("opentype");
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.nanumgothic * {
+ font-family: 'Nanum Gothic', sans-serif;
+}

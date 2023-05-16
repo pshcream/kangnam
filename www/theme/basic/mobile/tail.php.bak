@@ -1,0 +1,299 @@
+<?php
+if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
+?>
+    </div>
+</div>
+
+<!--
+< ?php echo poll('theme/basic'); // 설문조사 ?>
+< ?php echo visit('theme/basic'); // 방문자수 ?>
+-->
+<!--하단상담신청란시작-->
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+
+  <script language="javascript">
+  function showPopup() 
+  { 
+  window.open("https://dodreamhairplant.co.kr/popup.php", "a", "width=450, height=300, left=350, top=80")
+    {
+		window.opener.popUpClosed();
+	  
+	  
+    }
+  }
+  </script>
+
+
+<div class="" style="">
+	<form method="post" name="newftFrm" id="gform" data-email="dodreamdb@gmail.com" action="https://script.google.com/macros/s/AKfycby923imo_POnZqcLYnrfoe8PMh0wbc4DeALni1GRDldT-Zvayhg/exec" class="gform">
+        <!--<input type="hidden" name="kind" value="footer_consult">
+        <input type="hidden" name="page" value="/m/index.php"> -->
+		<div id="fixedConsult">
+			<div class="wrapper">
+				<div class="txtWrap">
+					<div>
+						<p class="fixedName"><input type="text" name="u_name" id="fn_name" placeholder="성함" style="font-family: 'S-CoreDream-5Medium';" required></p>
+						<p class="fixedPhone"><input type="text" name="u_cell" id="fn_cell" placeholder="연락처" style="font-family: 'S-CoreDream-5Medium';" required></p>
+					</div>
+					<div class="last">
+						<p class="fixedPrivacy"><label><input type="checkbox" id="fn_privacy" name="fixedPrivacy" required checked> 개인정보처리방침 동의 <a href="/bbs/content.php?co_id=privacy&device=mobile" target="_blank">[자세히보기]</a> </label></p>
+						<div class="fixedPart">
+							<ul>
+								<li><label><input type="radio" name="call_type" value="전화" checked > 전화 <i class="xi-call" style="margin-right:2vw"></i></label></li>
+								<li><label><input type="radio" name="call_type" value="카톡"> 카톡 <i class="xi-kakaotalk"></i></label></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="btnWrap">
+					<p class="fixedType">
+						<select id="fn_type" name="u_type" required>
+						
+							<option value="">상담부위를 선택하세요</option><option value="복부">복부</option><option value="허벅지">허벅지</option><option value="팔뚝">팔뚝</option><option value="종아리">종아리</option><option value="등">등</option><option value="엉덩이">엉덩이</option><option value="얼굴">얼굴</option><option value="목살">목살</option><option value="겨드랑이">겨드랑이</option><option value="옆구리">옆구리</option><option value="러브핸들">러브핸들</option><option value="샤넬라인">샤넬라인</option><option value="전신">전신</option><option value="재수술">재수술</option>
+						
+						</select>
+					</p>
+					<button  class="fixedSubmit" 	onclick="showPopup();" > 상담신청 </button>
+					
+				</div>
+			</div>
+		</div>
+   
+		<!--  <input type="hidden" name="tableName" id="tableName" value="footer_consult" />
+		<input type="hidden" name="cmd" value="write"> -->
+        
+        <!-- Customise the Thankyou Message People See when they submit the form: -->
+
+	</form>
+    
+
+  
+    </div>    
+
+     
+    
+     
+    <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+  <!-- <script data-cfasync="false" type="text/javascript"
+  src="/form-submission-handler.js"></script> -->
+<!--하단상담신청란끝-->
+
+
+
+<!---하단상담신청시작-->
+<!--
+<div class="" style="">
+	<form method="post" name="newftFrm" id="newftFrm" action="/m/process.php">
+        <input type="hidden" name="kind" value="footer_consult">
+        <input type="hidden" name="page" value="/m/index.php">
+		<div id="fixedConsult">
+			<div class="wrapper">
+				<div class="txtWrap">
+					<div>
+						<p class="fixedName"><input type="text" name="name" id="fn_name" placeholder="이름"></p>
+						<p class="fixedPhone"><input type="text" name="cell" id="fn_cell" placeholder="연락처"></p>
+					</div>
+					<div class="last">
+						<p class="fixedPrivacy"><label><input type="checkbox" id="fn_privacy" name="fixedPrivacy"> 개인정보처리방침 동의 <a href="/bbs/content.php?co_id=privacy" target="_blank">[자세히보기]</a></label></p>
+						<div class="fixedPart">
+							<ul>
+								<li><label><input type="radio" name="call_type" value="2" checked=""> 전화 <i class="xi-call"></i></label></li>
+								<li><label><input type="radio" name="call_type" value="1"> 카톡 <i class="xi-kakaotalk"></i></label></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="btnWrap">
+					<p class="fixedType">
+						<select id="fn_type" name="type">
+						
+							<option value="">상담부위를 선택하세요</option><option value="M자">M자</option><option value="정수리">정수리</option><option value="가르마">가르마</option><option value="관자놀이">관자놀이</option>						
+						</select>
+					</p>
+					<a href="javascript:blur();" class="fixedSubmit" onclick="newInsert();">상담문의</a>
+					
+				</div>
+			</div>
+		</div>
+
+		<input type="hidden" name="tableName" id="tableName" value="footer_consult">
+		<input type="hidden" name="cmd" value="write">
+	</form>
+</div>
+-->
+<!--하단상담신청끝-->
+
+
+
+
+<div id="ft">
+    
+    
+	<!--수술경고문구시작-->
+	<div class="information">
+	<img src="https://dformula.speedgabia.com/_dodreamhairplant/mobile/dd_information.jpg" loading="lazy">
+</div>
+	<!--수술경고문구끝-->
+	<!--상담링크시작--->
+    <div class="f_menu">
+                <ul class="f_menu_list">
+					
+                    <li class="list1">
+                        <a href="http://pf.kakao.com/_xixlNZs" target="_blank">
+                            <span class="icon"><img class=" lazyloaded" src="http://dodreambodyclinic.com/theme/basic/img/mobile/icon_f_menu1.png" data-orig-src="http://dodreambodyclinic.com/theme/basic/img/mobile/icon_f_menu1.png" alt="카톡상담"></span>
+                            <span class="desc">카톡상담</span>
+                        </a>
+                    </li>
+					
+                    <li class="list2">
+                        <a href="/consult" target="_blank">
+                            <span class="icon"><img class=" lazyloaded" src="http://dodreambodyclinic.com/theme/basic/img/mobile/icon_f_menu2.png" data-orig-src="http://dodreambodyclinic.com/theme/basic/img/mobile/icon_f_menu2.png" alt="온라인상담"></span>
+                            <span class="desc">온라인상담</span>
+                        </a>
+                    </li>
+                    <li class="list3">
+                        <a href="https://booking.naver.com/booking/13/bizes/354188/items/3428783" target="_blank">
+                            <span class="icon"><img class=" lazyloaded" src="http://dodreambodyclinic.com/theme/basic/img/mobile/icon_f_menu3.png" data-orig-src="http://dodreambodyclinic.com/theme/basic/img/mobile/icon_f_menu3.png" alt="빠른상담예약"></span>
+                            <span class="desc">빠른상담예약</span>
+                        </a>
+                    </li>
+                    <li class="list4">
+                        <a href="tel:025646501">
+                            <span class="icon"><img class=" lazyloaded" src="http://dodreambodyclinic.com/theme/basic/img/mobile/icon_f_menu4.png" data-orig-src="http://dodreambodyclinic.com/theme/basic/img/mobile/icon_f_menu4.png" alt="전화걸기"></span>
+                            <span class="desc">전화걸기</span>
+                        </a>
+                    </li>
+                </ul>
+            
+    </div>
+    <!--상담링크끝-->
+    <!--sns링크시작-->
+<div class="foot_sns_wrap">
+	<div class="foot_sns">
+		<a href="https://www.facebook.com/%EB%91%90%EB%93%9C%EB%A6%BC%EC%84%B1%ED%98%95%EC%99%B8%EA%B3%BC-%EB%B9%84%EB%A7%8C%ED%81%B4%EB%A6%AC%EB%8B%89%EC%84%BC%ED%84%B0-103614721881966" target="_blank"><img src="http://dodreambodyclinic.com/theme/basic/img/foot_icon01.png" alt="" loading="lazy"></a>
+		<a href="https://www.instagram.com/dodream.obesityclinic/" target="_blank"><img src="http://dodreambodyclinic.com/theme/basic/img/foot_icon02.png" alt="" loading="lazy"></a>
+       
+		<a href="http://pf.kakao.com/_xixlNZs" target="_blank"><img src="http://dodreambodyclinic.com/theme/basic/img/foot_icon03.png" alt=""></a>
+
+		<!-- <a href="https://open.kakao.com/o/sTf3QVw" onclick="csf('event','2','','');nattt();" target="_blank"> -->
+		<a href="https://www.youtube.com/user/dodreamps" target="_blank"><img src="http://dodreambodyclinic.com/theme/basic/img/foot_icon04.png" alt="" loading="lazy"></a>
+		<a href="https://cafe.naver.com/nmnu?iframe_url=/ArticleList.nhn%3Fsearch.clubid=23137088%26search.menuid=184%26search.boardtype=Q" target="_blank"><img src="http://dodreambodyclinic.com/theme/basic/img/foot_icon05.png" alt="" loading="lazy"></a>
+	</div>
+</div>
+    
+    
+    <!--sns링크끝--->
+    
+    
+    <!--기타 푸터 시작-->
+<div class="footerm">
+	<div class="foot_lan">
+		<a href="/"><img src="/theme/hospital/img/korea.jpg" loading="lazy" alt=""></a>
+        <!--
+		<a href="https://dodreamhairplant.co.kr/en"><img src="https://dformula.speedgabia.com/_dodreamhairplant/usa.jpg" alt=""></a>
+		-->
+	</div>
+
+    <div class="family_site">
+        <a href="http://dodreamps.com/" target="_blank"><img src="http://dodreambodyclinic.com/theme/basic/img/link_ps.png" alt="" loading="lazy"></a>
+		
+		<a href="https://dodreamhairplant.co.kr" target="_blank"><img src="http://dodreambodyclinic.com/theme/basic/img/link_hair.png" alt="" loading="lazy"></a>
+		
+        </div>
+    
+    
+
+	<div class="privacy">
+		<ul>
+			<li><a href="/bbs/content.php?co_id=privacy&device=mobile" style=" display: inline-block;  font-weight: bold; ">개인정보처리방침</a></li>
+			<li><a href="/?device=pc">PC버전</a></li>
+		</ul>
+	</div>
+	<div class="address">
+		<p>서울시 강남구 강남대로92길 13(역삼동 819-9) 7F</p>
+		<div>
+            <!--
+			<a>올리팅 사업자정보</a>
+-->
+			<p class="infoDesc">
+				의료기관명칭 : 생활건강한의원 의원 <br> 대표번호 : 02-564-6501<br>
+				E-mail : dodreamps@naver.com <br> 사업자등록번호 : 220-09-77483<br>
+			</p>
+		</div>
+
+		<p class="last">COPYRIGHT ⓒ 2019 DODREAMPS.COM<br>ALL RIGHT PRESERVED</p>
+	</div>
+</div>
+    <!--기타 푸터 끝-->
+    <!--
+    <div id="ft_copy">
+        <div id="ft_company">
+            <a href="<?php echo get_pretty_url('content', 'company'); ?>">회사소개</a>
+            <a href="<?php echo get_pretty_url('content', 'privacy'); ?>">개인정보처리방침</a>
+            <a href="<?php echo get_pretty_url('content', 'provision'); ?>">서비스이용약관</a>
+        </div>
+        Copyright &copy; <b>소유하신 도메인.</b> All rights reserved.<br>
+    </div>
+    <div class="ft_cnt">
+    	<h2>사이트 정보</h2>
+        <p class="ft_info">
+        	회사명 : 회사명 / 대표 : 대표자명<br>
+			주소  : OO도 OO시 OO구 OO동 123-45<br>
+			사업자 등록번호  : 123-45-67890<br>
+			전화 :  02-123-4567  팩스  : 02-123-4568<br>
+			통신판매업신고번호 :  제 OO구 - 123호<br>
+			개인정보관리책임자 :  정보책임자명<br>
+		</p>
+    </div>
+    <button type="button" id="top_btn"><i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span></button>
+    -->
+    <!--
+    <?php
+    if(G5_DEVICE_BUTTON_DISPLAY && G5_IS_MOBILE) { ?>
+    <a href="<?php echo get_device_change_url(); ?>" id="device_change">PC 버전으로 보기</a>
+-->
+    <?php
+    }
+
+    if ($config['cf_analytics']) {
+        echo $config['cf_analytics'];
+    }
+    ?>
+</div>
+<script>
+jQuery(function($) {
+
+    $( document ).ready( function() {
+
+        // 폰트 리사이즈 쿠키있으면 실행
+        font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
+        
+        //상단고정
+        if( $(".top").length ){
+            var jbOffset = $(".top").offset();
+            $( window ).scroll( function() {
+                if ( $( document ).scrollTop() > jbOffset.top ) {
+                    $( '.top' ).addClass( 'fixed' );
+                }
+                else {
+                    $( '.top' ).removeClass( 'fixed' );
+                }
+            });
+        }
+
+        //상단으로
+        $("#top_btn").on("click", function() {
+            $("html, body").animate({scrollTop:0}, '500');
+            return false;
+        });
+
+    });
+});
+</script>
+
+<?php
+include_once(G5_THEME_PATH."/tail.sub.php");
